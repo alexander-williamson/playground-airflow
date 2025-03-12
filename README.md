@@ -7,7 +7,7 @@ This docker compose creates:
 
 1. Start it for the first time, you'll get failures but that's OK
 ```
-docker-compose up -d
+docker-compose up
 ```
 
 2. Initialise the database
