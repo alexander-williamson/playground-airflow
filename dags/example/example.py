@@ -5,6 +5,7 @@ from airflow.decorators import task
 from airflow.operators.bash import BashOperator
 
 # A DAG represents a workflow, a collection of tasks
+# Taken from https://airflow.apache.org/docs/apache-airflow/2.5.1/
 with DAG(dag_id="demo", start_date=datetime(2022, 1, 1), schedule="0 0 * * *") as dag:
 
     # Tasks are represented as operators
